@@ -78,3 +78,75 @@ margin-right: 15px;
     color: white;
     cursor:pointer;
 }
+@media only screen and (max-width :320px) {
+    .commentsection {
+        background-color: #262525;
+        color: #f2e9e9;
+        padding: 2rem 0 2rem 0;
+    }
+    .typecomment .commentinput {
+        background-color: #262525;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #fff;
+        width: 230px;
+        transition: all .1s ease-in-out;
+        margin-right: 0px;
+    }
+    .typecomment img {
+        border-radius: 28px;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width :375px) {
+    .commentsection {
+        background-color: #262525;
+        color: #f2e9e9;
+        padding: 2rem 0 2rem 0;
+    }
+    .typecomment .commentinput {
+        background-color: #262525;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #fff;
+        width: 230px;
+        transition: all .1s ease-in-out;
+        margin-right: 0px;
+    }
+    .typecomment img {
+        border-radius: 28px;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width :600px) {
+    .commentsection {
+        background-color: #262525;
+        color: #f2e9e9;
+        padding: 2rem 0 2rem 0;
+    }
+    .typecomment .commentinput {
+        background-color: #262525;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #fff;
+        width: 230px;
+        transition: all .1s ease-in-out;
+        margin-right: 0px;
+    }
+    .typecomment img {
+        border-radius: 28px;
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+}
