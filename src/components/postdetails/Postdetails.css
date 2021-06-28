@@ -39,16 +39,25 @@ color: #F5F3C3;
         padding: 0;
         background-color: #323232;
     }
+    #postcontent{
+        padding: 10px;
+    }
 }
 @media only screen and (max-width :375px) {
     .postdetails {
         padding: 0;
         background-color: #323232;
     }
+    #postcontent{
+        padding: 10px;
+    }
 }
 @media only screen and (max-width :600px) {
     .postdetails {
         padding: 0;
         background-color: #323232;
+    }
+    #postcontent{
+        padding: 10px;
     }
 }
