@@ -84,8 +84,40 @@ font-family: 'Lobster', cursive;
     .info {
         width: auto;
     }
+    .midfilmtitle {
+        font-size: 2rem;
+    }
 }
 @media only screen and (max-width : 375px) {
+    .info {
+        width: auto;
+    }
+    .button {
+        margin-top: 10px;
+    }
+    .thumbnailimage{
+        height:300px;
+        width:100%;
+        object-fit: cover;
+    }
+    .thumbnail{
+        display: block;
+        width:100vw;
+    }
+    .info .title {
+        font-size: 1.5rem;
+        font-family: 'Lobster', cursive;
+    }
+    .midfilmtitle {
+        font-size: 2rem;
+    }
+    .info .shortdes {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 320px) {
     .info {
         width: auto;
     }
