@@ -1,0 +1,21 @@
+.readmorebutton{
+    width: 150px;
+    height: 40px;
+    font-family: "'Josefin Sans', sans-serif";
+    font-size: 1.1rem;
+    text-align:center;
+    line-height:35px;
+    margin-top:30px;
+}
+.readmorebutton:hover{
+    opacity:0.7;
+    transform:scale(1.1);
+}
+.filmframe{
+    justify-content:center;
+}
+.filmdesboxbigger{
+    display:flex;
+    align-items:center;
+    height:250px;
+}

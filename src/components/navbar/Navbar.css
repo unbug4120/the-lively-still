@@ -1,0 +1,130 @@
+.navbar {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    background-color:#413333;
+    height:50px;
+    width:100%;
+    padding-right: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+    background-color:#B2AFAF;
+    width: 76%;
+    height:60%;
+    border-radius:28px;
+    font-family: 'Rochester', cursive;
+    font-weight:600;
+    position: relative;
+    left: 62px;
+
+
+
+}
+.signing.signoutcolor{
+    background-color: #802629;
+}
+.menuitem{
+    color: #000000;
+   display: inline-block;
+   text-align:center;
+   width:70px;
+   line-height:25px;
+
+}
+.nav-link:hover{
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.17);
+    color: #4D4646;
+    cursor: pointer;
+
+}
+.nav-link:active{
+    color: #4D4646;
+}
+.nav-link:focus{
+    color: #4D4646;
+}
+.cowandmilk{
+    font-size: 1.5rem;
+    position: relative;
+    bottom:4px;
+margin-left: 30px;
+margin-right:1%;
+}
+.cowandmilk:hover .milk{
+    transform:rotate(45deg) translate(2px, -7px);
+    cursor: pointer;
+}
+.cowandmilk:hover .cow{
+    transform:rotate(10deg);
+    cursor: pointer;
+}
+.cow{
+    display:inline-block;
+    transform:rotate(0deg);
+    transition:all 0.5s ease-in-out;
+}
+.milk{
+    display:inline-block;
+    font-size:1rem;
+    transform:rotate(0deg) translate(0px, 0px); 
+    transition:all 0.5s ease-in-out;
+
+}
+.nav-link {    
+    font-family: "Rochester",cursive;
+    font-weight: 600;
+    padding: 0px 0px;
+    width: 70px;
+    margin: 0 30px;
+    font-size: 1.2rem;
+    color: #000;
+}
+.navbar-nav {
+    background-color: #b2afaf;
+    border-radius: 28px;
+    height: 60%;
+}
+/* @keyframes navtrans{
+    from {width:0%;}
+    to {width:76%;}
+   } */
+.signinbutton{
+   position: relative;
+   left: 110px;
+}
+.navbar-toggler {
+    background-color: #fff;
+    color: #413333;
+}
+.navbar-toggler {
+    border-radius: 5%;
+}
+@media only screen and (max-width :1024px) {
+    .signinbutton{
+        position: relative;
+        left: 30px;
+    }
+}
+@media only screen and (max-width :768px) {
+    .signinbutton{
+        position: relative;
+        left: 0px;
+        padding: 10px 0px 10px 10px;
+        background-color: #b2afaf;
+    }
+    .navbar-nav {
+        background-color: #b2afaf;
+        border-radius: 0px;
+        padding: 0px;
+        margin-top: 6px;
+    }
+    .navbar-nav li {
+        border-bottom: 1px dotted #413333;
+    }
+}

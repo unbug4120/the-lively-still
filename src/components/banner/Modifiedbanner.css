@@ -1,0 +1,31 @@
+.filmtitle1{
+    font-weight: 600;
+    font-size:6rem;
+    font-family: 'Monoton', cursive;
+    text-align:center;
+    position: relative;
+    top: 30px;
+    color:#1A1818;
+
+}
+.lasttwo1{
+    position:relative;
+    top: 57px;
+}
+@media only screen and (max-width : 1024px) {
+    .filmtitle1 {
+        font-weight: 600;
+        font-size: 3rem;
+        font-family: 'Monoton', cursive;
+        text-align: center;
+        position: static;
+        top: 30px;
+        color: #1A1818;
+    }
+    .line1 {
+        position: static;
+    }
+    .lasttwo1 {
+        position: static;
+    }
+}

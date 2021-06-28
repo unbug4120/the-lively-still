@@ -1,0 +1,21 @@
+
+.slick-prev{
+    left:65px !important;
+    z-index:10;
+    height:85px !important;
+    width:10px !important;
+    opacity:0.7 !important;
+}
+.slick-next{
+    right:65px !important;
+    z-index:10;
+    height:85px !important;
+    width:10px !important;
+    opacity:0.7 !important;
+}
+.slick-prev:hover{
+    opacity:0.4 !important;
+}
+.slick-next:hover{
+    opacity:0.4 !important;
+}

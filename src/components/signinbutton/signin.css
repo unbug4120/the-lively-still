@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.home {
+    overflow-x: hidden;
+}
+.modalcontainer{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    height: 100vh;
+}
+.darkoverlay{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    background-color:black;
+    z-index:11;
+    opacity:0.8;
+    top:0;
+   left:0;
+}
+.signinbox{
+    width: 45%;
+    height: 55vh;
+    background-color: white;
+    z-index:12;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:12px;
+
+}
+.close{
+    background-color:#25282b;
+    width: 20px;
+    height:100%;
+    border:none;
+    text-align:center;
+    color:white;
+}
+.close i{
+    transform: translate(-3px, 2px);
+    color:#4f555c;
+}
+.close:hover i{
+color:#7d8691;
+cursor:pointer;
+}
+.daicons{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:16px;
+}
+.daicons .damilk{
+font-size:1.1rem;
+}
+.daicons:hover .damilk{
+    transform:rotate(45deg) translate(2px, -7px);
+    cursor: pointer;
+}
+.daicons:hover .dacow{
+    transform:rotate(10deg);
+    cursor: pointer;
+}
+.dacow{
+    display:inline-block;
+    transform:rotate(0deg);
+    transition:all 0.5s ease-in-out;
+}
+.damilk{
+    display:inline-block;
+    font-size:1rem;
+    transform:rotate(0deg) translate(0px, 0px); 
+    transition:all 0.5s ease-in-out;
+}
+.header{
+    width: 100%;
+    height:20px;
+    background-color:#25282b;
+    display:flex;
+    justify-content:flex-end ;
+}
+
+.fillin{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 20px);
+    align-items:center;
+    background-color:#1a1c1f;
+}
+.label{
+    background-color:#272c33;
+    color:#4c535c;
+    height:30px;
+    width:30px;
+    text-align: center;
+    line-height: 30px;
+    border-top-left-radius:4px;
+border-bottom-left-radius:4px;
+
+}
+.label i{
+
+font-size:0.8rem;
+}
+.inputitem{
+    height:40px;
+    display:flex;
+    align-items: center;
+   max-width: 200px;
+   padding-right:2px;
+   
+}
+.inputitem input{
+height:30px;
+border:none;
+background-color:#3f4752;
+padding-left:6px;
+color:white;
+outline:none;
+transition: all 0.15s ease-in-out;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.inputitem input:focus{
+box-shadow: 0px 0px 6px #749fb5;
+}
+.submitbutton{
+    margin-top:5px;
+    width: 200px;
+    height:30px;
+    background-color: #aa67a1;
+    color: white;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    transition:all 0.1s ease-in-out;
+}
+.submitbutton:hover{
+    cursor: pointer;
+    background-color:#8f4585;
+}
+.signin:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+.signup{
+    margin-top:10px;
+    font-size:12.5px;
+   color:#3f4752;
+}
+.signupbutton{
+    color:white;
+    margin-left:7px;
+
+}
+.signup i{
+    font-size:0.7rem;
+    transform: translateY(2px)
+
+}
+.signupbutton:hover{
+    cursor: pointer;
+    opacity:0.7;
+}
+.signing{
+width: 90px;
+height:27px;
+ border-radius:28px;
+ border:none;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ font-family: 'Roboto Slab', serif;
+ background-color:#2a633e;
+ color:white;
+
+ 
+}
+.signing:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
+.signing i{
+    margin-left:7px;
+}
+.signing span{
+    transform: translateY(-1px)
+}
+.errormessage{
+    margin-top:7px;
+    margin-bottom:7px;
+    color:#b5606e;
+    font-size:0.8rem;
+}

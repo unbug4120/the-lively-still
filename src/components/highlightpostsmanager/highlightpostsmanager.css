@@ -1,0 +1,56 @@
+.sectiontitle{
+    color:white;
+    font-size: 1.25rem;
+    font-weight:600;
+    margin-bottom: 0.5rem;
+    margin-top:1.5rem;
+   
+}
+.highlightpostsmanagercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom:20px;
+}
+.highlightpostsmanagercontainer input{
+    width: 250px;
+    border-radius: 10px;
+    border:none;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left:5px;
+    outline:none;
+    transition: all 0.1s ease-in-out;
+}
+.highlightpostsmanagercontainer input:focus{
+width:260px;
+border: 2px solid lightskyblue;
+}
+.savebutton{
+    background-color: pink;
+    height:30px;
+    width:100px;
+}
+.savebutton:hover{
+    cursor: pointer;
+}
+.tnimage{
+    height:30px;
+    margin-right:20px;
+}
+.display span{
+    color:white;
+}
+
+
+.span1 {
+    margin-right:20px;
+}
+.display .fa-trash{
+    color:rgb(206, 61, 61);
+    transition: all 0.1s ease-in-out;
+}
+.display .fa-trash:hover{
+    cursor: pointer;
+    font-size:1.1rem;
+}

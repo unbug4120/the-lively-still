@@ -1,0 +1,18 @@
+.texteditor .ql-toolbar{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+     
+}
+.texteditor .ql-editor{
+    min-height:100vh;
+    min-width: 100vw;
+    
+    
+}
+.ql-editor.ql-blank{
+    background-color: white;
+}
+.texteditor label{
+    color:white;
+}

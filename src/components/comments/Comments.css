@@ -1,0 +1,80 @@
+.commentsection{
+    background-color:#262525;
+    color:#f2e9e9;
+    padding: 2rem;
+}
+
+.commentitem{
+display: flex;
+padding-right: 2rem;
+margin-top:1.5rem;
+margin-bottom:1.5rem;
+margin-left:7.5px;
+}
+
+.commentitem img{
+    width: 40px;
+    height:40px;
+    border-radius: 28px;
+    margin-right:12px;
+}
+
+.cmtheader{
+    display:flex;
+    align-items:center;
+    margin-bottom: 5px;
+}
+.username{
+    margin-right: 5px;
+    font-size:1.1rem;
+    font-weight: 600;
+}
+
+.commentitem .time{
+    opacity:0.7;
+    font-size: 0.85rem;
+}
+.typecomment img{
+    border-radius: 28px;
+height:55px;
+width:55px;
+margin-right: 15px;
+}
+.typecomment{
+    display: flex;
+    align-items:center;
+    margin-bottom: 40px;
+}
+.typecomment .commentinput{
+    background-color:#262525;
+    border:none;
+    outline: none;
+    color: white;
+    border-bottom:1px solid white;
+    width: 500px;
+    transition: all 0.1s ease-in-out;
+    margin-right:30px;
+}
+
+.typecomment input:focus{
+    border-color:#a19c9c;
+
+}
+
+.typecomment .commentbutton{
+    font-size: 0.9rem;
+    width: 90px;
+    height:1.5rem;
+    line-height:1.1rem;
+    background-color:#a19c9c;
+    outline: none;
+    border:none;
+    border-radius:28px;
+    color:rgb(54, 37, 37);
+    transition: all 0.1s ease-in-out;
+}
+.typecomment button:hover{
+    background-color:#646060;
+    color: white;
+    cursor:pointer;
+}
