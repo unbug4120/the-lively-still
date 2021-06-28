@@ -71,3 +71,31 @@
         height: auto;
     }
 }
+@media only screen and (max-width : 320px) {
+    .midfilmtitle {
+        margin: 20px;
+        font-weight: 600;
+        font-size: 3rem;
+        font-family: 'Monoton', cursive;
+        text-align: center;
+        position: relative;
+    }
+    .otherframe {
+        background-color: #46575D;
+        height: auto;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .midfilmtitle {
+        margin: 20px;
+        font-weight: 600;
+        font-size: 3rem;
+        font-family: 'Monoton', cursive;
+        text-align: center;
+        position: relative;
+    }
+    .otherframe {
+        background-color: #46575D;
+        height: auto;
+    }
+}
